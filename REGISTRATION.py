@@ -12,9 +12,9 @@ from tkinter import Text,Tk
 today=date.today()
 print ('software is runing......')
 firstw=Tk()
-firstw.title("Prakash Chandra School")
+firstw.title("Prakash Chandra Public School")
 firstw.geometry("1600x1000+0+0")
-label=Label(text="Prakash Chandra School",font=("times new roman",35),bg="MediumOrchid2")
+label=Label(text="Prakash Chandra Public School",font=("times new roman",35),bg="MediumOrchid2")
 label.pack(side=TOP ,fill=X)
 user1=Label(text="USERNAME",font=("arial",23))
 user1.place(x=610,y=120)
@@ -29,7 +29,7 @@ user3.place(x=570,y=360)
 def second():
     global secondw
     secondw=Tk()
-    secondw.title("Prakash Chandra School")
+    secondw.title("Prakash Chandra Public School")
     secondw.geometry("1600x1000+0+0")
     def distroy4():
         secondw.destroy()
@@ -39,9 +39,9 @@ def second():
         student1.title("STUDENT DETAILS")
     def studentid():
         rot = Tk()
-        rot.title("VISITORS")
+        rot.title("Prakash Chandra Public School")
         rot.geometry("1600x1000+0+0")
-        mainlabel = Label(rot, text="ENQUIRY DETAILS", font=("times new roman", 35), bg="MediumOrchid2")
+        mainlabel = Label(rot, text="STUDENT'S DETAILS", font=("times new roman", 35), bg="MediumOrchid2")
         mainlabel.pack(side=TOP, fill=X)
         chat1 = ttk.Treeview(rot,height=20, columns=('name','sur','fee'), selectmode="extended")
         chat1.heading('#0', text='ID', anchor=CENTER)
@@ -71,7 +71,7 @@ def second():
 
     def viewenquiry2():
         rt = Tk()
-        rt.title("VISITORS")
+        rt.title("Prakash Chandra Public School")
         rt.geometry("1600x1000+0+0")
         mainlabel =Label(rt, text="VISITOR", font=("times new roman", 35), bg="MediumOrchid2")
         mainlabel.pack(side=TOP, fill=X)
@@ -101,7 +101,7 @@ def second():
     def distroy5():
         secondw.destroy()
         window()
-    mainlabel= Label(secondw,text="Prakash Chandra School", font=("times new roman", 35), bg="MediumOrchid2")
+    mainlabel= Label(secondw,text="Prakash Chandra Public School", font=("times new roman", 35), bg="MediumOrchid2")
     mainlabel.pack(side=TOP, fill=X)
     button = Button(secondw,width=15, font=("arial", 20), text="REGISTRATION", bg="MediumOrchid2", command=distroy4)
     button.place(x=10, y=480)
@@ -111,7 +111,7 @@ def second():
     fee_details.place(x=560, y=480)
     viewenquiry= Button(secondw, width=15, font=("arial", 20), text="VIEW ENQUIRY", bg="MediumOrchid2",command=viewenquiry2)
     viewenquiry.place(x=840, y=480)
-    viewenquiry1 = Button(secondw, width=15, font=("arial", 20), text="student id ", bg="MediumOrchid2",command=studentid)
+    viewenquiry1 = Button(secondw, width=15, font=("arial", 20), text="STUDENT ID", bg="MediumOrchid2",command=studentid)
     viewenquiry1.place(x=1100, y=480)
 
 
@@ -141,7 +141,7 @@ def login():
 def root():
     root=Tk()
     root.geometry("1600x1000+0+0")
-    root.title("SHREE KANHA KRISHNA PLAY SCHOOL")
+    root.title("Prakash Chandra Public School")
     global entry1
     global entry2
     global entry3
@@ -267,10 +267,10 @@ def root():
 
     checkbutton1=Checkbutton(root,text="C++",variable=d)
     checkbutton1.place(x=600,y=455 ,)
-	 
-	 
+	  
     checkbutton1=Checkbutton(root,text="PYTHON",variable=python)
     checkbutton1.place(x=650,y=455)
+
     python.set(0)
     java.set(0)
     c.set(0)
@@ -302,8 +302,6 @@ def root():
 
     button4=Button(root,text="SEARCH",width=14,font=("arial",10),bg="indianred1" ,command=all )
     button4.place(x=1100 , y=150)
-    #button7 = Button(root, text="UPLOAD PHOTO", width=14, font=("arial", 10), bg="indianred1",command=file)
-    #button7.place(x=1100, y=210)
 
     button4=Button(root,text="UPDATE",width=14,font=("arial",10),bg="indianred1" ,command=update)
     button4.place(x=950 , y=630)
@@ -313,6 +311,9 @@ def root():
 
     #button6=Button(root,text="ENQUIRY",width=14,font=("arial",10),bg="indianred1",command=window )
     #button6.place(x=300 , y=630)
+
+    #button7 = Button(root, text="UPLOAD PHOTO", width=14, font=("arial", 10), bg="indianred1",command=file)
+    #button7.place(x=1100, y=210)
 
 
 
@@ -343,7 +344,7 @@ def r():
 
 def enquiry1():
     enquiry1=Tk()
-    enquiry1.title("ENQUIRY")
+    enquiry1.title("Prakash Chandra Public School")
     enquiry1.geometry("1600x1000+0+0")
     purpose=StringVar()
     global entry23
@@ -519,7 +520,7 @@ def window():
   
   main=Tk()
   main.geometry("1600x1000+0+0")
-  main.title("enqiry")
+  main.title("Prakash Chandra Public School")
   namee=StringVar()
   phone=IntVar()
   purpose=StringVar()
